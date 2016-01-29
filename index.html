@@ -3,27 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css.css">
   <title>JS Bin</title>
 </head>
-<body>
-Hello this is a game!
-<table>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-</table>
+<body style="background-color: white;">
+<center>	
+<h1>	TIC TAC TOE</h1>
+<div id="board">
+    <table>
+      <tr id="row1">
+        <td  data-id="7" class="square"></td>
+        <td  data-id="11" class="square v"></td>
+        <td  data-id="13" class="square"></td>
+      </tr>
+      <tr id="row2">
+        <td  data-id="100" class="square h"></td>
+        <td  data-id="1000" class="square v h"></td>
+        <td  data-id="10000" class="square h"></td>
+      </tr>
+      <tr id="row3">
+        <td  data-id="30" class="square"></td>
+        <td  data-id="50" class="square v"></td>
+        <td  data-id="90" class="square"></td>
+      </tr>
+    </table>
+    <div id="message">
+
+    </div>
+  </div>
+ </center>
 </body>
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="javascript.js"></script>
